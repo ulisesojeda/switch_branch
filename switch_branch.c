@@ -146,6 +146,7 @@ int main()
 
 	free(branches->branches);
 	free(branches);
+	system("stty sane");
 
 	return 0;
 }
