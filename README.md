@@ -19,7 +19,7 @@ $ sudo apt-get install libncurses5-dev
 The install directory defaults to `/usr/local`:
 
 ```sh
-$ make install
+$ sudo make install
 ```
 
 ## License
