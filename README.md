@@ -8,7 +8,13 @@ Switch branch by selecting all available branches
 
 # Installation
 
-### From source
+## From source
+
+### Dependencies
+
+```sh
+$ sudo apt-get install libncurses5-dev
+```
 
 The install directory defaults to `/usr/local`:
 
