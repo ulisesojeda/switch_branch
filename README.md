@@ -1,6 +1,6 @@
 # Switch Git branch
 
-Switch git branch by selecting all available branches
+Show a list of git branches that can be switch to
 
 # Usage
 
