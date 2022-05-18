@@ -11,7 +11,7 @@ Switch git branch by selecting all available branches
 The install directory defaults to `/usr/local`:
 
 ```sh
-$ sudo make install
+$ sudo make
 ```
 
 ## License
