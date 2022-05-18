@@ -1,10 +1,10 @@
-VERSION=	0.0.1
+VERSION=	0.0.2
 
 PREFIX=		/usr/local
 MANPREFIX=	${PREFIX}/share/man
 
 PROG=	sb
-OBJS=	switch_branch.c
+OBJS=	sb.c
 
 INSTALL_PROGRAM=	install -s -m 0755
 INSTALL_MAN=		install -m 0644
@@ -16,7 +16,7 @@ DISTFILES=	CHANGELOG.md \
 		LICENSE \
 		Makefile \
 		README.md \
-		switch_branch.c
+		sb.c
 
 all: ${PROG}
 
@@ -49,4 +49,3 @@ install: ${PROG}
 
 .PHONY: all clean dist distclean install
 
--include config.mk
