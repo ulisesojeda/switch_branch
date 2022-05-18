@@ -5,7 +5,6 @@
 #include <dirent.h> 
 #include <errno.h>
 
-
 typedef struct {
     char** branches;
     int n_branches;
@@ -89,7 +88,7 @@ void switch_branch(BRANCHES *bs, int choice) {
     }
 }
 
-int main(int argc, char** argv) {
+int main() {
     int i;
     char input[1024], *endptr;
     BRANCHES *bs = get_branches();
